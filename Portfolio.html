@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Responsive Portfolio Website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/custom.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="js/typed.min.js"></script>
+
+
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<div class="logo">PORTFO<span>LIO</span></div>
+
+			<div class="menu">
+				<a href="#"> Home</a>
+				<a href="#"> About</a>
+				<a href="#"> Skills</a>
+				<a href="#"> Projects</a>
+				<a href="#"> Contact</a>
+			</div>
+		</nav>
+
+		<div class="text">
+			<p>Hello, I am</p>
+			<h1>Saurav Sangam</h1>
+			<p>And I'm a <span id="ani" style="color: #e74c3c;"></span></p>
+			<button class="c-btn">Hire me</button>
+		</div>
+
+	</header>
+
+
+	<section id="sidenav">
+		<img src="images/menubar.png" id="menubar">
+		<a href="#home">Home</a>
+		<a href="#about">About</a>
+		<a href="#skill">Skills</a>
+		<a href="#projects">Projects</a>
+		<a href="#contact">Contact</a>
+	</section>
+
+
+
+	<section id="about">
+		<div class="section-info">
+			<h1>About</h1>
+			<p>Who i am?</p>
+		</div>
+
+
+		<div class="about-row">
+			<div class="about-left-col">
+				<img src="Image/DP.jpg">
+			</div>
+
+			<div class="about-right-col">
+				<p id="p-title">
+					Hello, I'm <span style="color: #e74c3c;">Saurav</span> & I'm a <span id="ani2"
+						style="color: #e74c3c;"> </p>
+				<p>
+					Hey there... <br> It's Saurav here, i'm currently pursuing my B.Tech from IIT Roorkee in Electrical
+					Engineering stream. I do Competetive Programming and Front End Developement, I love to watch Cricket
+					and I am also a binge watcher, I'm passionate learner, love to learn new things, nice to get in
+					tpuch with you.
+				</p>
+				<button class="c-btn">Download CV</button>
+
+			</div>
+		</div>
+
+
+
+	</section>
+
+
+	<section id="skills">
+
+		<div class="section-info">
+			<h1 style="color: black;">Skill's</h1>
+			<p>What I do ?</p>
+		</div>
+
+
+		<div class="skills-row">
+			<div class="skills-left-col">
+				<p>
+					I'm intrested in technical things, so in that regard, I do Competetive Programming, I'm well equiped
+					in C++, Data structure and Algorithm, I also started front End Developement, let's see, where it
+					takes me...
+				</p>
+				<button class="c-btn">Read more</button>
+			</div>
+			<div class="skills-right-col">
+				<div class="progress-div">
+
+					<p>
+						<span>HTML</span><br>
+						<progress value="90" max="100"> </progress>
+						<span>90%</span>
+					</p>
+
+					<p>
+						<span>CSS</span><br>
+						<progress value="80" max="100"> </progress>
+						<span>80%</span>
+					</p>
+
+					<p>
+						<span>JAVASCRIPT</span><br>
+						<progress value="50" max="100"> </progress>
+						<span>50%</span>
+					</p>
+
+					<p>
+						<span>JQUERY</span><br>
+						<progress value="40" max="100"> </progress>
+						<span>40%</span>
+					</p>
+
+					<p>
+						<span>C++</span><br>
+						<progress value="80" max="100"> </progress>
+						<span>80%</span>
+					</p>
+
+				</div>
+
+			</div>
+		</div>
+
+	</section>
+
+
+	<section id="projects">
+		<div class="section-info">
+			<h1>Projects</h1>
+			<p>This are some projects:</p>
+		</div>
+
+		<div class="projects-row">
+			<div class="projects-box" data-tilt>
+				<img src="images/b2.png">
+				<h2>Stock Sentiment Analysis</h2>
+				<p>
+					In this project, we analyse the tweets of CNBCTV18 live with the previous stock prices to predict
+					the rise/fall of stock prices in the coming Dys
+				</p>
+			</div>
+
+			<div class="projects-box" data-tilt>
+				<img src="images/b2.png">
+				<h2>Home Automation</h2>
+				<p>
+					With the help of Arduino, we created a prototype of smart home, where you can control your Fan,
+					lights, room temperature with your mobile from anywhere in the world with network connection.
+				</p>
+			</div>
+			<div class="projects-box" data-tilt>
+				<img src="images/b2.png">
+				<h2>Flood Light Installation</h2>
+				<p>
+					Here we calculated the energy required to conduct a night T-20 match at MCG, further how we can
+					imolement it, how much flood light, solar panel, battery etc are required.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact">
+		<div class="section-info" style="color: white;">
+			<h1>let's Connect</h1>
+			<p style="color: black;">Exchange our ideas !!!</p>
+		</div>
+
+
+
+		<div class="contact-row">
+			<div class="contact-left-col">
+				<img src="images/b3.png">
+				<!-- <img src="Image/kisspng-download-huntspill-free-content-clip-art-contact-cliparts-5a8b609c2d4d86.3229453215190836761856.png" -->
+			</div>
+			<div class="contact-right-col">
+				<form>
+					<h2>Connect with us</h2>
+					<input type="text" name="" placeholder="Name">
+					<input type="email" name="" placeholder="E-mail">
+					<br>
+					<textarea cols="120" rows="10" placeholder="Message"></textarea>
+					<br>
+					<button class="c-btn"> Submit</button>
+				</form>
+
+			</div>
+
+		</div>
+	</section>
+
+	<section id="footer">
+		<h2>Developed by <br>Saurav Sangam</h2>
+		<img src="images/icon.png" width="100">
+	</section>
+
+
+	<script src="js/jquery.ripples-min.js"></script>
+
+	<script>
+		jQuery(document).ready(function () {
+			$('header').ripples({
+				dropRadius: 20,
+				perturbance: 0.03,
+
+			});
+		});
+	</script>
+
+
+	<script>
+		let animate = new Typed('#ani', {
+			strings: ["Front End Developer", "Competetive Programmer", "Gamer"],
+			typeSpeed: 100,
+			backSpeed: 100,
+			loop: true,
+		})
+
+	</script>
+
+
+	<script>
+		let animat = new Typed('#ani2', {
+			strings: ["Front End Developer", "Competetive Programmer", "Gamer"],
+			typeSpeed: 100,
+			backSpeed: 100,
+			loop: true,
+
+		})
+
+	</script>
+	<script src="js/tilt.jquery.min.js"></script>
+	<script type="text/javascript">
+		var menu = document.getElementById("menubar");
+		var sidenav = document.getElementById("sidenav");
+		sidenav.style.width = "0px";
+		menu.onclick = function () {
+			if (sidenav.style.width == "0px") {
+				sidenav.style.width = "250px";
+			}
+			else {
+				sidenav.style.width = "0px";
+			}
+		}
+	</script>
+
+
+</body>
+
+</html>
